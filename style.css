@@ -187,22 +187,71 @@ body {
 
 @media (max-width: 768px){
 
-    .features{
-        flex-direction: column;
+    .container{
+        padding: 20px;
     }
 
     .header{
         flex-direction: column;
-        gap: 15px;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .nav{
+        display: flex;
+        gap: 20px;
+    }
+
+    .nav a{
+        margin-left: 0;
+        font-size: 16px;
+    }
+
+    .hero{
+        margin-top: 50px;
     }
 
     .hero h1{
-        font-size: 40px;
+        font-size: 42px;
+        line-height: 1.1;
     }
 
     .hero h2{
-        font-size: 30px;
+        font-size: 32px;
+        line-height: 1.2;
     }
+
+    .hero p{
+        font-size: 17px;
+    }
+
+    .hero-image{
+        margin-top: 25px;
+    }
+
+    .features{
+        flex-direction: column;
+        margin-top: 60px;
+    }
+
+    .feature-card{
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .eggs-page h2,
+    .contact-page h2{
+        font-size: 34px;
+    }
+
+    .intro{
+        font-size: 17px;
+    }
+
+    #theme-toggle{
+        margin-top: 10px;
+    }
+
 }
 
 /* contact page */
