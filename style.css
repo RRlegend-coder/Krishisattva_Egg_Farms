@@ -311,3 +311,14 @@ body {
 .light-mode .active {
     color: black !important;
 }
+
+/* Add this to style.css */
+.light-mode input, .light-mode textarea {
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid #d6d6d6 !important;
+}
+
+#contact-form input::placeholder, #contact-form textarea::placeholder {
+    color: #8a8a8a;
+}
